@@ -91,7 +91,7 @@
     "start:server": "node server/index.js",
     "server": "npm run build:server && npm run start:server",
     "start": "npm run server",
-    "build": "node ./scripts/build.js",    /* front-end build if you later include CRA */
+    "build": "node ./scripts/build.js",  
     "test": "cross-env TZ=utc jest --config jest.config.js",
     "lint": "eslint src server"
   },

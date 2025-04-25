@@ -87,8 +87,8 @@
   },
   "scripts": {
     "postinstall": "rimraf public/virtualbackground && copyfiles -f node_modules/@twilio/video-processors/dist/build/* public/virtualbackground",
-    "build:server": "tsc -p server/tsconfig.json",
-    "start:server": "node server/index.js",
+    "build:server": "tsc -p /tsconfig.json",
+    "start:server": "node /index.js",
     "server": "npm run build:server && npm run start:server",
     "start": "npm run server",
     "build": "node ./scripts/build.js",  
